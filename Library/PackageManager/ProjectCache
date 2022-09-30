@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637999366757631784
-    m_Hash: 1463002328
+      ticks: 638000708368679256
+    m_Hash: 545385685
   m_LockFileStatus:
     m_FilePath: C:/Users/stars/Documents/Unity/GalaxyShooterDX/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637999367039663406
-    m_Hash: 230827022
+      ticks: 638000708368679256
+    m_Hash: 2216975041
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
