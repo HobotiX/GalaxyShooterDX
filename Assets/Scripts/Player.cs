@@ -35,6 +35,10 @@ public class Player : MonoBehaviour
     private int _score = 0;
 
     private UIManager _uiManager;
+
+    [SerializeField]
+    private AudioClip _laserSoundAudio;
+    private AudioSource _audioSource;
     
 
 
@@ -51,6 +55,12 @@ public class Player : MonoBehaviour
         _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
         if (_uiManager == null) {
             Debug.LogError("ERROR: UI Manager is Null!");
+        }
+        _audioSource = GetComponent<AudioSource>();
+        if (_audioSource == null) {
+            Debug.LogError("ERROR: Player Audio Source is Null!");
+        } else {
+            _audioSource.clip = _laserSoundAudio;
         }
     }
 
@@ -114,6 +124,8 @@ public class Player : MonoBehaviour
         } else {
             Instantiate(_tripleShotPrefab, transform.position, Quaternion.identity);
         }
+
+        _audioSource.Play();
         
     }
 

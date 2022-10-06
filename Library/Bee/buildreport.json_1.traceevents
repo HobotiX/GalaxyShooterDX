@@ -1,0 +1,583 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1665034964188356, "dur": 7319758, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665034964189688, "dur": 42949, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665034964232791, "dur": 88380, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665034964321198, "dur": 558345, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665034964879545, "dur": 6618551, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665034971498134, "dur": 9980, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035009879788, "dur": 747528, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035009880110, "dur": 13611, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035009893723, "dur": 66221, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035009959945, "dur": 315026, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035010274973, "dur": 338504, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035010613479, "dur": 13836, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035010628855, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665035009930385, "dur":2724, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009933120, "dur":538, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665035009933679, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665035009933713, "dur":1053, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665035009934816, "dur":641, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009935457, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009936792, "dur":88, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009936881, "dur":228, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937109, "dur":132, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937241, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937252, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937254, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937261, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937264, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937270, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937272, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937279, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937281, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937287, "dur":58, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937345, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937351, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937353, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937359, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937362, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937368, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937370, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937375, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937378, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937383, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937385, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937391, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937393, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937398, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937400, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937406, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937408, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937415, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937418, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937425, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937425, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009937438, "dur":9333, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665035009934421, "dur":1048, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035009935473, "dur":1313, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035009934430, "dur":1045, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035009935475, "dur":1465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035009934480, "dur":1003, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035009935483, "dur":1454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035009934523, "dur":970, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035009935493, "dur":1438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035009934600, "dur":904, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035009935504, "dur":1415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035009934660, "dur":855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035009935515, "dur":1394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035009934709, "dur":814, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035009935523, "dur":1376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035009935054, "dur":533, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035009935587, "dur":1213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035009934796, "dur":743, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035009935539, "dur":1330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035009934845, "dur":701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035009935546, "dur":1303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035009934877, "dur":675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035009935552, "dur":1282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035009934920, "dur":642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035009935562, "dur":1260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035009934957, "dur":615, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035009935572, "dur":1243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035009934999, "dur":581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035009935580, "dur":1228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035009934749, "dur":782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035009935531, "dur":1355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035009935095, "dur":499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035009935594, "dur":1200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035009950483, "dur":590, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665035010629008, "dur": 541, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1665035010126110, "dur": 134639, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665035010127150, "dur": 45575, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665035010241886, "dur": 7210, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665035010249099, "dur": 11643, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665035010249827, "dur": 9735, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665035010265377, "dur": 1335, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665035010264576, "dur": 2159, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035010629685, "dur": 283, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665035010320271, "dur":2297, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010322577, "dur":2177, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665035010324790, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665035010324824, "dur":1135, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665035010326017, "dur":679, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010326696, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010589520, "dur":374, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010589894, "dur":177, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590071, "dur":81, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590152, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590168, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590173, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590183, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590186, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590196, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590199, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590209, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590213, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590221, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590243, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590252, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590255, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590264, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590266, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590274, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590278, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590288, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590291, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590301, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590306, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590314, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590317, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590326, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590330, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590339, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590342, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590349, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590353, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590364, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590383, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010590413, "dur":11029, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665035010325466, "dur":1243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010326712, "dur":7234, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010333987, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665035010333988, "dur":544, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010334539, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665035010334542, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010334836, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665035010334964, "dur":488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010335455, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1665035010335620, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010335911, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010336064, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010336618, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010336771, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010337164, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010337269, "dur":829, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010338099, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010338179, "dur":1888, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010340068, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010340158, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010340606, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010341107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010341112, "dur":27922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010369094, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010369424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010369428, "dur":6147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010375619, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010375662, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010375981, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010376031, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010376200, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010376435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665035010376440, "dur":6810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665035010383352, "dur":206165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010325524, "dur":1192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010326716, "dur":7298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010334015, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665035010334570, "dur":845, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010335416, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1665035010335568, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010335703, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010336016, "dur":602, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010336620, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010336723, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010336842, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010336952, "dur":673, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010337627, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010337704, "dur":914, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010338619, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010338709, "dur":1567, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010340277, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010341282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010341286, "dur":28214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010369622, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010370246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010370250, "dur":7204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665035010377529, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1665035010377607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010377611, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1665035010380558, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665035010380646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665035010380676, "dur":9635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665035010390359, "dur":199164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010325600, "dur":1126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010326727, "dur":7248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010333975, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665035010334198, "dur":1461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010335660, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010335919, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010336616, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010336731, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010336840, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010336923, "dur":1259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010338183, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010338256, "dur":1814, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010340072, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010340180, "dur":15404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010355589, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010355934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010355940, "dur":13846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010369852, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010370621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010370626, "dur":10184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665035010380888, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1665035010380972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665035010380975, "dur":6678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1665035010387746, "dur":201812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010325643, "dur":1091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010326734, "dur":7218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010333961, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1665035010334669, "dur":865, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010335535, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010335673, "dur":594, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010336268, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010336366, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010336833, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010336952, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010337527, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010337615, "dur":972, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010338588, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010338668, "dur":1605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010340274, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010340864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010340867, "dur":27965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010368882, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010369051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010369055, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010371638, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010371824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010371828, "dur":10779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665035010382710, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1665035010382798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665035010382804, "dur":6352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1665035010389203, "dur":200373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010325696, "dur":1048, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010326745, "dur":7241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010333987, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1665035010334557, "dur":1104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010335662, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010335741, "dur":881, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010336623, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010336699, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010337134, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010337209, "dur":771, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010337981, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010338072, "dur":2006, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010340078, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010341132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010341137, "dur":28560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010369768, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010370498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010370503, "dur":8943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665035010379508, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665035010379648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665035010379656, "dur":8457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665035010388180, "dur":201383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010325733, "dur":1022, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010326755, "dur":7200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010333964, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1665035010334674, "dur":1256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010335931, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010336022, "dur":678, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010336701, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010336788, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010337363, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010337422, "dur":1175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010338598, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010338654, "dur":1405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010340060, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010340197, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010340651, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010341139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010341143, "dur":28416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010369607, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010369820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010369825, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010374721, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010374780, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010375187, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010375252, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010375489, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010375546, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010375917, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010375977, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010376216, "dur":5861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010382083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665035010383548, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665035010386604, "dur":202946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010325773, "dur":991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010326764, "dur":7202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010333973, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1665035010334203, "dur":1696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010335901, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010336025, "dur":596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010336621, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010336702, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010337263, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010337341, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010337660, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010337918, "dur":1928, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010339847, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010340051, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010340535, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010340806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010340811, "dur":29390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010370265, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010370601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010370605, "dur":9586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665035010380281, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1665035010380617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665035010380622, "dur":5887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1665035010386602, "dur":202950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010325824, "dur":949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010326773, "dur":7203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010333977, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1665035010334645, "dur":1290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010335936, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010336072, "dur":713, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010336787, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010337240, "dur":790, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010338031, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010338129, "dur":1767, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010339898, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010340057, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010340642, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010341119, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010341130, "dur":28166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010369375, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010369599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010369603, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010373669, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010373711, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010373918, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010373977, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374086, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374139, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374302, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374352, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374507, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374556, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374690, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010374744, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010375141, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010375197, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010375469, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010375524, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010375921, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010375979, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010376198, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665035010376257, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010376517, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1665035010376727, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010376974, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1665035010377045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010377129, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1665035010379547, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1665035010379682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665035010379686, "dur":9050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1665035010388808, "dur":200725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010325872, "dur":910, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010326782, "dur":7254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010334036, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1665035010334488, "dur":978, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010335468, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010335638, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010336240, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010336325, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010336760, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010336872, "dur":1044, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010337917, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010338009, "dur":2068, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010340078, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010340815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010340819, "dur":28376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010369255, "dur":1212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010370470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010370475, "dur":9761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665035010380338, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1665035010380666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665035010380671, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1665035010386592, "dur":202956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010325914, "dur":875, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010326789, "dur":7182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010333975, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1665035010334451, "dur":1193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010335645, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1665035010336105, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010336249, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010336349, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010336660, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010336846, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010337219, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010337318, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010337622, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010337719, "dur":2121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010339842, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010340058, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010340291, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010340753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010340758, "dur":28029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010368842, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010369031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010369037, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010371920, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010371966, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372255, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372311, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372554, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372601, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372758, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372810, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372935, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010372983, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010373242, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010373293, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010373452, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010373630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010373633, "dur":9096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665035010382843, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1665035010383290, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665035010383528, "dur":205987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010325971, "dur":824, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010326795, "dur":7186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010333985, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1665035010334603, "dur":1000, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010335604, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1665035010335751, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010335978, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010336132, "dur":602, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010336735, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010336861, "dur":1127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010337989, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010338054, "dur":1842, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010339897, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010340065, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010340315, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010340845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010340850, "dur":29429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010370366, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010370612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010370616, "dur":8855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665035010379557, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665035010379675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665035010379680, "dur":5115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665035010384865, "dur":204683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010326186, "dur":647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010326833, "dur":7130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010333964, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665035010334715, "dur":901, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010335617, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX.exe" }}
+,{ "pid":12345, "tid":12, "ts":1665035010335763, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010335831, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665035010335937, "dur":702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010336640, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665035010337302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010340204, "dur":30120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665035010370394, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665035010370682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010370686, "dur":10066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665035010380866, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1665035010380948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665035010380952, "dur":8237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1665035010389234, "dur":200298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010326065, "dur":744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010326809, "dur":7176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010333986, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1665035010334359, "dur":1545, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010335905, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010336068, "dur":660, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010336729, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010336818, "dur":866, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010337685, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010337879, "dur":2211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010340091, "dur":1321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010341417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010341421, "dur":28578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010370121, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010370896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010370900, "dur":11035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665035010382015, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665035010382109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665035010382114, "dur":6983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1665035010389147, "dur":200398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010326107, "dur":711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010326818, "dur":7170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010333990, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1665035010334537, "dur":1117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010335655, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010335886, "dur":805, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010336692, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010336799, "dur":456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010337256, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010337355, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010337907, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010337986, "dur":1855, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010339843, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010339922, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010340285, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010340770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010340776, "dur":29290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010370144, "dur":14255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010384409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665035010384418, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665035010388414, "dur":201155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010326138, "dur":687, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010326825, "dur":7167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010333998, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1665035010334499, "dur":998, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010335498, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010335660, "dur":581, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010336241, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010336330, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010336667, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010336811, "dur":623, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010337435, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010337529, "dur":1015, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010338545, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010338608, "dur":1641, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010340250, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010340326, "dur":15270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010355599, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010356000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010356006, "dur":14090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010370175, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010370448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010370453, "dur":7435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665035010377940, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1665035010377993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665035010377997, "dur":211407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1665035010589451, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1665035010589453, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010326029, "dur":771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010326801, "dur":7190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010333992, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1665035010334605, "dur":1091, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010335697, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010336077, "dur":682, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010336761, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010336943, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010337436, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010337517, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010338288, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010338540, "dur":1285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010339826, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010340037, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010340300, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010340721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010340727, "dur":29449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010370251, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010370636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010370678, "dur":10555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665035010381375, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsPlayableBuild/GalaxyShooterDX_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1665035010381502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665035010381506, "dur":6988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsPlayableBuild/GalaxyShooterDX_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1665035010388698, "dur":200867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665035010605704, "dur":1872, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665035010630053, "dur": 651, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665035010628839, "dur": 1898, "ph": "X", "name": "Write chrome-trace events", "args": {} },

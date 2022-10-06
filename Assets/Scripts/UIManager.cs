@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
     private Text _restartText;
     private GameManager _gameManager;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,5 +58,14 @@ public class UIManager : MonoBehaviour
         _restartText.gameObject.SetActive(true);
         StartCoroutine(GameOverFlicker());
         _gameManager.GameOver();
+    }
+
+    public void ResumePlay() 
+    {
+        _gameManager.ResumeGame();
+    }
+    public void ToMainMenu() 
+    {
+        _gameManager.ReturnMainMenu();
     }
 }

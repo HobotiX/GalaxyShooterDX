@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    private void Update() 
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+    }
+    
     public void LoadGame()
     {
         SceneManager.LoadScene(1); // Game Scene
